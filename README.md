@@ -21,3 +21,7 @@ Notify this RSS page (__/sitemap-rss__) into your Google Search Console account 
 Because a blank page with a '304 Not Modified' header will be send if no recent articles are present, please first time submit this page to Google when creating new articles.
 
 The __siemap_article_rss__ form invokes the new (TXP 4.7.0) `<txp:evaluate />` tag. [Check the second file option for previous Textpattern CMS versions](https://github.com/cara-tm/RSS-Sitemap-for-Textpattern-CMS/tree/master/form).
+
+##Informations
+
+[Google recommends use both XML and alternative sitemaps for SEO optimisation.](http://googlewebmastercentral.blogspot.ca/2014/10/best-practices-for-xml-sitemaps-rssatom.html)
