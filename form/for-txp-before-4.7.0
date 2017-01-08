@@ -1,0 +1,16 @@
+		<item>
+			<title><txp:title /></title>
+			<description><txp:if_description><txp:meta_description format="" /><txp:else /><txp:if_excerpt><txp:php>
+		/*
+		 * Retrieve the plain text excerpt version from the 'textpattern' table.
+		 */
+		echo safe_field('Excerpt', 'textpattern', 'ID = "'.article_id(array()).'"');</txp:php><txp:else /><txp:php>
+		/*
+		 * Retrieve the plain text body version from the 'textpattern' table.
+		 */
+		$words = safe_field('Body', 'textpattern', 'ID = "'.article_id(array()).'"');
+		echo preg_replace('/((\w+\W*){15}(\w+))(.*)/', '${1}', $words);</txp:php></txp:if_excerpt></txp:if_description></description>
+			<link><txp:permlink /></link>
+			<pubDate><txp:posted gmt="1" format="rfc822" /></pubDate>
+			<guid isPermaLink="true"><txp:permlink /></guid>
+		</item>
