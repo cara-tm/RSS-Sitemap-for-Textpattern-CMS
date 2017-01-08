@@ -1,9 +1,9 @@
 <txp:php>
 /**
  * RSS sitemap creation. To be used in conjunction with an xml sitemap.
- * Only most recent pages will be added. Dates comparisons are made from today and the last 
- * and the last modified article (or its publishing date), otherwise a blank page with a 
- * '304 Not Modified' header will be send to bots.
+ * Only most recent pages will be added. Dates comparisons are made from today and 
+ * the last modified article (or its publishing date), otherwise a blank page with
+ * a '304 Not Modified' header will be send to bots.
  *
  * Set the section names you wish into <txp:article_custom section="articles" below
  * (section names within a comma separated list allowed).
