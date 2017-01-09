@@ -11,7 +11,7 @@ __Note__: you will need [the aks_header plugin](http://forum.textpattern.com/vie
 
 Copy/paste this [form template](https://github.com/cara-tm/RSS-Sitemap-for-Textpattern-CMS/blob/master/form/sitemap_articles_rss) into a new form named __sitemap_article_rss__.
 
-Copy/Paste this [sitemap_rss template](https://github.com/cara-tm/RSS-Sitemap-for-Textpattern-CMS/blob/master/page/sitemap_rss) into a new page named __sitemap_rss__.
+Copy/Paste this [page template](https://github.com/cara-tm/RSS-Sitemap-for-Textpattern-CMS/blob/master/page/sitemap_rss) into a new page named __sitemap_rss__.
 
 Finally, associate this page to a new section named __sitemap-rss__ (This page will be never indexed by bots).
 
