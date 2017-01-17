@@ -49,5 +49,5 @@ header('Last-Modified: "'.$rs['LastMod'].'"');
 		 *
 		 */
 		echo safe_strftime( 'rfc822', strtotime(get_pref('lastmod')) );
-		</txp:php></lastBuildDate><txp:article_custom section="articles" month="%Y-%m-%d" limit="20" form="sitemap_articles_rss" status="live" /></channel>
+		</txp:php></lastBuildDate><txp:article_custom section="articles" month="today" time="+1 day" limit="20" form="sitemap_articles_rss" status="live" /></channel>
 </rss>
